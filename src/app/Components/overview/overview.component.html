@@ -1,0 +1,37 @@
+<mat-card class="m-1">
+    <div class="parent">
+        <div class="div1 card d-flex">
+            <p class="text-center">Total Sectors</p>
+            <circle-progress class="d-block mx-auto" [percent]="85" [radius]="100" [outerStrokeWidth]="3"
+                [innerStrokeWidth]="0" [outerStrokeColor]="'#9400ff'" [innerStrokeColor]="'#9400ff'" [animation]="true"
+                [animationDuration]="100"></circle-progress>
+        </div>
+        <div class="div2 card">
+            <p class="text-center">Total Sectors</p>
+            <circle-progress class="d-block mx-auto" [percent]="50" [radius]="100" [outerStrokeWidth]="3"
+                [innerStrokeWidth]="0" [outerStrokeColor]="'var(--bs-warning)'" [innerStrokeColor]="'var(--bs-warning)'"
+                [animation]="true" [animationDuration]="400"></circle-progress>
+        </div>
+        <div class="div3 card">
+            <p class="text-center">Total Sectors</p>
+            <circle-progress class="d-block mx-auto" [percent]="15" [radius]="100" [outerStrokeWidth]="3"
+                [innerStrokeWidth]="0" [outerStrokeColor]="'var(--bs-orange)'" [innerStrokeColor]="'var(--bs-orange)'"
+                [animation]="true" [animationDuration]="300"></circle-progress>
+        </div>
+        <div class="div4 card">
+            <p class="text-center">Total Sectors</p>
+            <circle-progress class="d-block mx-auto" [percent]="75" [radius]="100" [outerStrokeWidth]="3"
+                [innerStrokeWidth]="0" [outerStrokeColor]="'var(--bs-danger)'" [innerStrokeColor]="'var(--bs-danger)'"
+                [animation]="true" [animationDuration]="200"></circle-progress>
+        </div>
+    </div>
+</mat-card>
+    <div class="row gap-1 m-1">
+        <div class="col card">
+            <app-bar-chart></app-bar-chart>
+        </div>
+        <div class="col card">
+            <app-line-chart></app-line-chart>
+        </div>
+    </div>
+
